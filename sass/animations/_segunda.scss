@@ -1,0 +1,108 @@
+$time: 6s;
+#tabSegundaMov {
+
+    //riko
+    @keyframes riko {
+        0% {
+            top: var(--top);
+            left: calc(var(--left) + 5%);
+        }
+        30% {
+            top: 45%;
+            left: calc(5% + 5%)
+        }
+        100% {
+            top: 45%;
+            left: calc(5% + 5%)
+        }
+    }
+    .riko{
+        animation-name: riko;
+        animation-duration: $time;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    //chika
+     @keyframes chika {
+        0% {
+            top: var(--top);
+            left: calc(var(--left) + 5%);
+        }
+        30% {
+            top: 45%;
+            left: calc(75% + 5%)
+        }
+        100% {
+            top: 45%;
+            left: calc(75% + 5%)
+        }
+    }
+    .chika{
+        animation-name: chika;
+        animation-duration: $time;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    //you
+    @keyframes you {
+        0% {
+            top: var(--top);
+            left: calc(var(--left) + 5%);
+        }
+        10% {
+            top: var(--top);
+            left: calc(var(--left) + 5%);
+        }
+        30%{
+            top: 45%;
+            left: calc(var(--left) + 5%);
+        }
+        50%{
+            top: 45%;
+            left: calc(30% + 5%);
+        }
+        100% {
+            top: 45%;
+            left: calc(30% + 5%);
+        }
+    }
+    .you{
+        animation-name: you;
+        animation-duration: $time;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    //kanan
+    @keyframes kanan {
+       0% {
+            top: var(--top);
+            left: calc(var(--left) + 5%);
+        }
+        30% {
+            top: var(--top);
+            left: calc(var(--left) + 5%);
+        }
+        50% {
+            top: 45%;
+            left: calc(var(--left) + 5%);
+        }
+        60%{
+            top: 45%;
+            left: calc(50% + 5%);
+        }
+        100%{
+            top: 45%;
+            left: calc(50% + 5%);
+        }
+
+    }
+    .kanan{
+        animation-name: kanan;
+        animation-duration: $time;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+}

@@ -1,0 +1,13 @@
+
+@use 'general/general';
+@use 'general/idols';
+@use 'animations/segunda';
+
+// Variable overrides second
+$primary: #900;
+$btn-font-family: "Roboto", sans-serif;
+$btn-font-size: 11px;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+

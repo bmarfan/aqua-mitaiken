@@ -1,0 +1,92 @@
+$rb: #e73879;
+$hn: #ead196;
+$yh: #222222;
+
+$rk: #ffcce1;
+$ch: #f0a04b;
+$yu: #a2d2df;
+
+$di: #7d0a0a;
+$kn: #7ed4ad;
+$mr: #9b7ebd;
+
+//los circulitos de las monas
+@mixin circle($color) {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: $color;
+    transition: 1s;
+}
+
+.hana {
+    @include circle($hn);
+}
+
+.ruby {
+    @include circle($rb);
+}
+
+.yohane {
+    @include circle($yh);
+}
+
+.riko {
+    @include circle($rk);
+}
+
+.chika {
+    @include circle($ch);
+}
+
+.you {
+    @include circle($yu);
+}
+
+.dia {
+    @include circle($di);
+}
+
+.kanan {
+    @include circle($kn);
+}
+
+.mari {
+    @include circle($mr);
+}
+
+//todas las monas
+.idol {
+    position: absolute;
+    top: var(--top);
+    left: calc(var(--left) + 5%);
+}
+
+//sides
+.arrow-m{
+    color: $mr;
+}
+.arrow-d{
+    color: $di
+}
+.arrow-rk{
+    color: $rk
+}
+.arrow-rb{
+    color: $rb
+}
+.arrow-h{
+    color: $hn
+}
+.arrow-yh{
+    color: $yh
+}
+.arrow-yu{
+    color: $yu
+}
+.arrow-k{
+    color: $kn
+}
+.arrow-c{
+    color: $ch
+}
