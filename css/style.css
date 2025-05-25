@@ -114,6 +114,13 @@ button {
   font-size: 11px;
 }
 
+@media screen and (orientation: portrait) {
+  .contend-body {
+    transform: rotate(90deg);
+    top: 25%;
+    position: relative;
+  }
+}
 .hana {
   width: 30px;
   height: 30px;
