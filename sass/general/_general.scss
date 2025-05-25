@@ -113,8 +113,6 @@ button {
     position: relative;
 }
 
-
-
  @media (min-width: 992px) {
     .button-container {
         width: 30%;
@@ -130,4 +128,8 @@ button {
         width: 70%;
         left: 30%;
     }
+}
+
+.contentButton{
+    font-size: 11px;
 }
