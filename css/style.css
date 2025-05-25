@@ -96,17 +96,6 @@ button {
   position: relative;
 }
 
-@media (min-width: 767.98px) {
-  .contend-body {
-    margin-top: 260px;
-  }
-  .infoTab {
-    width: 100%;
-  }
-  .content-tabs {
-    width: 100%;
-  }
-}
 @media (min-width: 992px) {
   .button-container {
     width: 30%;

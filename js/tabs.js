@@ -1,8 +1,8 @@
 "use strict";
 $(function () {
     unitsAll();
-    $("#tabPrimerCoro2").toggleClass('visible');
-    $("#infoPrimerCoro2").toggleClass('visible');
+    $("#tabInicial").toggleClass('visible');
+    $("#infoInicial").toggleClass('visible');
     $("#buttonInicial").toggleClass('active');
 });
 function unitsAll() {
