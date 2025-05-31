@@ -45,8 +45,8 @@ var inicial = {
     },
     mari: {
         val: 'mari',
-        top: '30%',
-        left: '48%'
+        top: '47%',
+        left: '40%'
     },
 
 }
@@ -73,12 +73,12 @@ var segundo = {
     riko: {
         val: 'riko',
         top: '45%',
-        left: '30%'
+        left: '50%'
     },
     chika: {
         val: 'chika',
         top: '45%',
-        left: '50%'
+        left: '30%'
     },
     you: {
         val: 'you',
