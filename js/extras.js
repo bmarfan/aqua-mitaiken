@@ -1,7 +1,8 @@
 $(function () {
-    showSides()
+    showSides();
 });
 
 function showSides() {
    $('.sides').appendTo('#infoPrimerCoro2')
 }
+

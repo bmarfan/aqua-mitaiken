@@ -1,9 +1,9 @@
 "use strict";
 $(function () {
     unitsAll();
-    $("#tabInicial").toggleClass('visible');
-    $("#infoInicial").toggleClass('visible');
-    $("#buttonInicial").toggleClass('active');
+    $("#tabFinal").toggleClass('visible');
+    $("#infoSegEstrofa1l").toggleClass('visible');
+    $("#buttonSegEstrofa1").toggleClass('active');
 });
 function unitsAll() {
     showUnits();

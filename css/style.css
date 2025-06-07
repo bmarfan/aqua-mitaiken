@@ -121,6 +121,13 @@ button {
     position: relative;
   }
 }
+.buttonc {
+  position: relative;
+  top: 230px;
+  background-color: #262626;
+  color: #fff;
+}
+
 .hana {
   width: 30px;
   height: 30px;
